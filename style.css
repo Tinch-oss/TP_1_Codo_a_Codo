@@ -1,4 +1,6 @@
 :root {
+
+/* Colores */  
   --clr-accent-400: hsl(354 89% 41%);
   --clr-accent-300: hsl(13, 100%, 96%);
 
@@ -7,16 +9,18 @@
   --clr-neutral-100: hsl(232, 12%, 13%);
   --clr-neutral-900: hsl(0 0% 0%);
 
+/* Fuentes */
   --ff-primary: font-family: 'Montserrat', sans-serif;
 
   --ff-body: var(--ff-primary);
   --ff-heading: var(--ff-primary);
 
+/* Negrita */  
   --fw-regular: 400;
   --fw-semi-bold: 500;
   --fw-bold: 700;
 
-  
+/* Tamaño de Fuentes */  
   --fs-300: .8125rem;
   --fs-400: .875rem;
   --fs-500: .9375rem;
@@ -25,7 +29,7 @@
   --fs-800: 2.5rem;
   --fs-900: 3.5rem;
 
-
+/* Tamaño de fuentes aplicado */
   --fs-body: var(--fs-400);
   --fs-primary-heading: var(--fs-800);
   --fs-secondary-heading: var(--fs-700);
