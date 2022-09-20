@@ -156,18 +156,29 @@ background-color: var(--clr-neutral-900);
 
 .header .contenedor {
 
-  height: 50vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(/imagenes/fondo.jpg);
+  height: 40vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) ,url(/imagenes/fondo.jpg);
    background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+.header {
+  position: relative;
+}
+.sub-contenedor {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .header h1 {
   font-size: var(--fs-900);
   color: var(--clr-accent-300);
   text-align: center;
-  padding-top: 100px;
+  
 }
 
 .header h2 {
