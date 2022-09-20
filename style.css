@@ -88,6 +88,48 @@ picture, svg {
   display: block;
 }
 
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2rem;
+}
+.contenedor {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.entrada-comida a {
+  display: inline-block;
+  /* background-color: #2196F3; */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  justify-content: space-around;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: column; /* Dirección de flex en columnas para posicionar titulo arriba y texto debajo*/
+  background-color: var(--clr-primary-400);
+  height: 30vh;
+  justify-content: center; /*Posiciona el menú en la  mitad de la altura del encabezado*/
+  
+}
+.desciption{
+  text-align: center; /*Posiciona el párrafo al centro*/
+  margin: 0.5rem 2rem 0.5rem 2rem ;
+  /*font-size: 3rem; /*Tamaño del párrafo*/
+}
+.parrafo{
+  text-align: justify /*Posiciona el párrafo JUSTIFICADO*/
+ }
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
@@ -105,6 +147,14 @@ picture, svg {
   }
 }
 
+
+@media (min-width:480px) {
+  .tres-columnas {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 2rem;
+  }
+}
 /* Utility Classes */
 
 .text-primary-400 {
