@@ -98,6 +98,8 @@ h2 {
 }
 h3 {
   font-size: 2rem;
+  color: var(--clr-neutral-100);
+  font-weight: bolder;
 }
 .contenedor {
   max-width: 1200px;
@@ -180,6 +182,18 @@ h3 {
   }
 }
 
+@media (min-width:768px) {
+  .con-sidebar {
+      display: flex;
+      justify-content: space-between;
+  }
+  aside {
+      flex-basis: calc(40% - 2rem);
+  }
+  form {
+      flex-basis: calc(60% - 2rem);
+  }
+}
 
 /* Utility Classes */
 
