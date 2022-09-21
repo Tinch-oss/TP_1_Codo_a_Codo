@@ -172,6 +172,9 @@ background-color: var(--clr-neutral-900);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header h1 {
@@ -185,6 +188,54 @@ background-color: var(--clr-neutral-900);
   text-align: center;
   font-size: var(--fs-700);
   color: var(--clr-accent-300);
+}
+
+.btn--header {
+  margin-top: 1.5em;
+  
+}
+
+button {
+ appearance: none;
+ background-color: transparent;
+ border: 0.125em solid #f3f3f3;
+ border-radius: 0.9375em;
+ box-sizing: border-box;
+ color: #f3f3f3;
+ cursor: pointer;
+ display: inline-block;
+ font-size: 1rem;
+ font-weight: 600;
+ line-height: normal;
+ margin: 0;
+ min-height: 3.75em;
+ min-width: 0;
+ outline: none;
+ padding: 1em 2.3em;
+ text-align: center;
+ text-decoration: none;
+ transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+ user-select: none;
+ -webkit-user-select: none;
+ touch-action: manipulation;
+ will-change: transform;
+}
+
+button:disabled {
+ pointer-events: none;
+}
+
+button:hover {
+ color: #fff;
+ background-color: var(--clr-accent-400);
+ box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+ transform: translateY(-2px);
+ border: 0.125em solid var(--clr-accent-400);
+}
+
+button:active {
+ box-shadow: none;
+ transform: translateY(0);
 }
 
 /*----------MG Iconos Guía Begins------------  */
