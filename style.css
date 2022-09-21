@@ -187,6 +187,55 @@ background-color: var(--clr-neutral-900);
   color: var(--clr-accent-300);
 }
 
+/*----------MG Iconos Guía Begins------------  */
+
+.contenedor--cards {
+  display: flex;
+  margin-block: 5em;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.card-iconito {
+  width: 135px;
+  height: 135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s ease-in-out;
+}
+
+.card-iconito img {
+  width: 90%;
+  height: 90%;
+  transition: all 0.5s ease-in-out;
+}
+
+.card-iconito a {
+  padding-top: 0.3rem;
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+  font-size: var(--fs-600);
+}
+
+.card-iconito:hover img {
+  transform: scale(1.1);
+ 
+
+}
+
+.card-iconito:hover {
+  background: var(--clr-primary-400);
+}
+
+
+
+
+
 /*----------MG Section Información Begins------------  */
 
 .section--contenedor {
