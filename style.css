@@ -356,6 +356,10 @@ button:active {
  display: none;
 }
 
+.inf--h3 {
+  color: #f3f3f3;
+}
+
 .inf--intro-txt {
  font-size: var(--fs-650);
   max-width: 70ch;
