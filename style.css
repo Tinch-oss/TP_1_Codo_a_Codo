@@ -235,12 +235,8 @@ background-color: var(--clr-neutral-900);
 
 .btn--header {
   margin-top: 1.5em;
-<<<<<<< HEAD
   text-align: center;
   
-=======
-
->>>>>>> 4c465c91d906d1c3d385375dc106fa7efa7619bf
 }
 
 button {
@@ -599,12 +595,12 @@ h3 {
 }
 .desciption{
   font-family: var(--ff-primary);
+  margin-inline: auto;
+  width: 90%;
 }
 .parrafo{
   margin-top: .7rem;
   text-align: justify; /*Posiciona el párrafo JUSTIFICADO*/
-  margin-inline: auto;
-  width: 90%;
  }
 
  .bolded { font-weight: bold; }
