@@ -1,6 +1,6 @@
 :root {
 
-/* Colores */  
+/* Colores */
   --clr-accent-400: hsl(354 89% 41%);
   --clr-accent-300: hsl(13, 100%, 96%);
 
@@ -15,12 +15,12 @@
   --ff-body: var(--ff-primary);
   --ff-heading: var(--ff-primary);
 
-/* Negrita */  
+/* Negrita */
   --fw-regular: 400;
   --fw-semi-bold: 500;
   --fw-bold: 700;
 
-/* Tamaño de Fuentes */  
+/* Tamaño de Fuentes */
   --fs-300: .8125rem;
   --fs-400: .875rem;
   --fs-500: .9375rem;
@@ -95,7 +95,7 @@ picture, svg {
   html:focus-within {
    scroll-behavior: auto;
   }
-  
+
   *,
   *::before,
   *::after {
@@ -223,7 +223,7 @@ background-color: var(--clr-neutral-900);
   font-size: var(--fs-900);
   color: var(--clr-accent-300);
   text-align: center;
-  
+
 }
 
 .header h2 {
@@ -234,7 +234,7 @@ background-color: var(--clr-neutral-900);
 
 .btn--header {
   margin-top: 1.5em;
-  
+
 }
 
 button {
@@ -296,7 +296,7 @@ button:active {
   height: 150px;
   transition: all .5s ease-in-out;
   border-radius: 50%;
-  
+
 }
 
 .card-iconito img {
@@ -307,7 +307,7 @@ button:active {
 
  .card-iconito a {
   text-decoration: none;
-} 
+}
 
 .card-iconito p {
   padding-top: 0.2rem;
@@ -320,14 +320,14 @@ button:active {
 
 .card-iconito:hover img {
   transform: scale(1.1);
- 
+
 }
 
 .card-iconito:hover p {
   font-size: 1.5rem;
   transform: translateY(15%);
   color: var(--clr-accent-400);
- 
+
 }
 
 .card-iconito:hover {
@@ -352,10 +352,10 @@ button:active {
 
 .inf--intro-txt {
  font-size: var(--fs-650);
-  max-width: 50ch;
+  max-width: 70ch;
   width: 95%;
   margin-inline: auto;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .resaltar--fuerte {
@@ -378,6 +378,7 @@ button:active {
   gap: 3rem;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 .card {
@@ -559,7 +560,6 @@ h3 {
   padding: 1rem;
   border-radius: 3%;
   border: 2px solid var(--clr-primary-400);
-
 }
 
 .entrada-comida img {
@@ -586,7 +586,7 @@ h3 {
   height: 30vh;
   justify-content: center; /*Posiciona el menú en la  mitad de la altura del encabezado*/
   margin-top: 5rem;
-  
+
 }
 .desciption{
   font-family: var(--ff-primary);
