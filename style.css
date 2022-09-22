@@ -89,54 +89,6 @@ picture, svg {
   display: block;
 }
 
-h1 {
-  font-size: 4rem;
-}
-h2 {
-  font-size: 3rem;
-  color: var(--clr-accent-400);
-  font-weight: bolder;
-}
-h3 {
-  font-size: 2rem;
-  color: var(--clr-neutral-100);
-  font-weight: bolder;
-}
-.contenedor {
-  max-width: 1200px;
-  width: 95%;
-  margin: 0 auto;
-}
-
-.entrada-comida a {
-  display: inline-block;
-  /* background-color: #2196F3; */
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  font-weight: bold;
-  text-transform: uppercase;
-  justify-content: space-around;
-}
-
-.flex-container{
-  display: flex;
-  flex-direction: column; /* Dirección de flex en columnas para posicionar titulo arriba y texto debajo*/
-  background-color: var(--clr-primary-400);
-  height: 30vh;
-  justify-content: center; /*Posiciona el menú en la  mitad de la altura del encabezado*/
-  
-}
-.desciption{
-  text-align: center; /*Posiciona el párrafo al centro*/
-  margin: 0.5rem 2rem 0.5rem 2rem ;
-  /*font-size: 3rem; /*Tamaño del párrafo*/
-}
-.parrafo{
-  text-align: justify /*Posiciona el párrafo JUSTIFICADO*/
- }
-
- .bolded { font-weight: bold; }
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
@@ -562,3 +514,81 @@ button:active {
 
 
 /*css lucas fin*/
+
+/* Gime Inicio */
+
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3rem;
+  color: var(--clr-accent-400);
+  font-weight: bolder;
+}
+
+.separador {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-top: 2px solid var(--clr-primary-400);
+  height: 2px;
+  width: 50%;
+}
+
+.separador2 {
+  margin-left: 50%;
+  border-top: 2px solid var(--clr-primary-400);
+}
+
+h3 {
+  font-size: 2rem;
+  color: var(--clr-neutral-100);
+  font-weight: bolder;
+}
+.contenedor {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+  gap: 1.5rem;
+}
+
+.entrada-comida {
+  background-color: #f7f5bc;
+  padding: 1rem;
+  border-radius: 3%;
+  border: 2px solid var(--clr-primary-400);
+}
+
+.entrada-comida img {
+  border-radius: 3%;
+}
+
+.entrada-comida a {
+  display: inline-block;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  justify-content: space-around;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: column; /* Dirección de flex en columnas para posicionar titulo arriba y texto debajo*/
+  max-width: 1200px;
+  margin-inline: auto;
+  height: 30vh;
+  justify-content: center; /*Posiciona el menú en la  mitad de la altura del encabezado*/
+  
+}
+.desciption{
+  font-family: var(--ff-primary);
+}
+.parrafo{
+  margin-top: .7rem;
+  text-align: justify /*Posiciona el párrafo JUSTIFICADO*/
+ }
+
+ .bolded { font-weight: bold; }
+
+ /* Gime Fin */
