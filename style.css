@@ -597,6 +597,7 @@ h3 {
   font-family: var(--ff-primary);
   margin-inline: auto;
   width: 90%;
+  text-align: justify;
 }
 .parrafo{
   margin-top: .7rem;
