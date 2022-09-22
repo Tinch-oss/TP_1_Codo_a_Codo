@@ -196,27 +196,28 @@ background-color: var(--clr-neutral-900);
 
 /*----------MG Header------------  */
 
-.header .contenedor {
-
-  height: 40vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) ,url(imagenes/fondo.jpg);
-   background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-}
-
-
 .header {
   position: relative;
+  height: 40vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) ,url(imagenes/fondo.jpg);
+   background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
 }
-.sub-contenedor {
+
+
+
+
+.sub-contenedor--header {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+.center-flex-header {
+  display: grid;
+  place-items: center;
 }
 
 .header h1 {
@@ -234,6 +235,7 @@ background-color: var(--clr-neutral-900);
 
 .btn--header {
   margin-top: 1.5em;
+  text-align: center;
   
 }
 
@@ -559,24 +561,22 @@ h3 {
   padding: 1rem;
   border-radius: 3%;
   border: 2px solid var(--clr-primary-400);
-
 }
 
 .entrada-comida img {
-  /* border-radius: 3%;
-  margin-top: 1em; */
+  border-radius: 3%;
+  margin-top: 1em;
   margin-bottom: 0.5;
 }
 
-.entrada-comida a {
+/* .entrada-comida a {
   display: inline-block;
   color: white;
   padding: 10px 20px;
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
-  justify-content: space-around;
-}
+} */
 
 .flex-container{
   display: flex;
