@@ -152,18 +152,32 @@ background-color: var(--clr-neutral-900);
 .fs-600 {font-size: var(--fs-600);}
 
 
+
+/*css lucas inicio*/
+
 .flex-art-tit{
   display: flex;
   text-align: center;
-  background-color: --clr-primary-400;
+  background-color: var(--clr-primary-400);
+
+}
+
+#art-tit-1{
+  color: hsl(354 89% 41%);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-600);
+}
+
+#art-tit-2{
+  font-weight: var(--fw-bold);
+  text-align: center;
 }
 
 .atr-img{
   width: 25rem;
   height: 25rem;
   display: flex;
-  
-
 }
 
 .flex-lugares{
@@ -183,6 +197,7 @@ background-color: var(--clr-neutral-900);
 
 .img-tit{
   text-align: center;
+  font-weight: var(--fw-bold);
 }
 
 .pie-img{
@@ -190,3 +205,6 @@ background-color: var(--clr-neutral-900);
   margin-top: 1rem;
   text-align: center;
 }
+
+
+/*css lucas fin*/
