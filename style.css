@@ -506,3 +506,59 @@ button:active {
 .card:hover .back {
   transform: perspective(600px) rotateY(360deg);
 }
+
+/*css lucas inicio*/
+
+.flex-art-tit{
+  display: flex;
+  text-align: center;
+  background-color: var(--clr-primary-400);
+
+}
+
+#art-tit-1{
+  color: hsl(354 89% 41%);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-600);
+}
+
+#art-tit-2{
+  font-weight: var(--fw-bold);
+  text-align: center;
+}
+
+.atr-img{
+  width: 25rem;
+  height: 25rem;
+  display: flex;
+}
+
+.flex-lugares{
+  display: flex;
+  justify-content: space-between;
+}
+
+.lugares{
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.section-atracciones{
+  display: flex;
+  justify-content: center;
+}
+
+.img-tit{
+  text-align: center;
+  font-weight: var(--fw-bold);
+}
+
+.pie-img{
+  margin-right: 10rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+
+/*css lucas fin*/
