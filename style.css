@@ -592,7 +592,7 @@ h3 {
   flex-direction: column; /* Dirección de flex en columnas para posicionar titulo arriba y texto debajo*/
   max-width: 1200px;
   margin-inline: auto;
-  height: 30vh;
+  /* height: 30vh; */
   justify-content: center; /*Posiciona el menú en la  mitad de la altura del encabezado*/
   margin-top: 5rem;
 
@@ -602,7 +602,9 @@ h3 {
 }
 .parrafo{
   margin-top: .7rem;
-  text-align: justify /*Posiciona el párrafo JUSTIFICADO*/
+  text-align: justify; /*Posiciona el párrafo JUSTIFICADO*/
+  margin-inline: auto;
+  width: 90%;
  }
 
  .bolded { font-weight: bold; }
