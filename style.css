@@ -528,19 +528,21 @@ h2 {
 
 .separador {
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   border-top: 2px solid var(--clr-primary-400);
   height: 2px;
   width: 50%;
 }
 
 .separador2 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
   margin-left: 50%;
   border-top: 2px solid var(--clr-primary-400);
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--clr-neutral-100);
   font-weight: bolder;
 }
@@ -561,7 +563,9 @@ h3 {
 }
 
 .entrada-comida img {
-  border-radius: 3%;
+  /* border-radius: 3%;
+  margin-top: 1em; */
+  margin-bottom: 0.5;
 }
 
 .entrada-comida a {
@@ -581,6 +585,7 @@ h3 {
   margin-inline: auto;
   height: 30vh;
   justify-content: center; /*Posiciona el menú en la  mitad de la altura del encabezado*/
+  margin-top: 5rem;
   
 }
 .desciption{
