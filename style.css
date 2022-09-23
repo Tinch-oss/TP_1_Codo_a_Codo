@@ -581,7 +581,6 @@ h3 {
 
  .bolded { font-weight: bold; }
 
-<<<<<<< HEAD
 .tres-columnas {
   display: grid;
   gap: 1rem;
@@ -642,7 +641,6 @@ h3 {
 
 
  /* Gime Fin */
-=======
  /* Gime Fin */
 .footer{
   display: flex;
@@ -686,4 +684,3 @@ h3 {
   
   
 }
->>>>>>> 968c357e6ea6507a2bb4ecc8651b8fb98cb28c4f
