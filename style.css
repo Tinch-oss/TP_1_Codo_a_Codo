@@ -581,6 +581,7 @@ h3 {
 
  .bolded { font-weight: bold; }
 
+<<<<<<< HEAD
 .tres-columnas {
   display: grid;
   gap: 1rem;
@@ -641,3 +642,48 @@ h3 {
 
 
  /* Gime Fin */
+=======
+ /* Gime Fin */
+.footer{
+  display: flex;
+  background-color: hsl(220, 100%, 10%);
+}
+ .section-footer{
+    display: flex;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 2%;
+ }
+
+ #rojo{
+    color: var(--clr-accent-400);
+ }
+
+ .div-footer-1{
+    color: var(--clr-primary-400);
+    
+ }
+
+ .div-footer-2{
+  color: lightgrey;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ .div-footer-3{
+  color: lightgrey;
+  margin-right: auto;
+  
+}
+
+ .icon{
+    color: lightgrey;
+}
+
+ .subrayado{
+  margin-bottom: 0.5em;
+  border-top: 2px solid var(--clr-primary-400);
+  
+  
+}
+>>>>>>> 968c357e6ea6507a2bb4ecc8651b8fb98cb28c4f
