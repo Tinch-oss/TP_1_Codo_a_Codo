@@ -654,7 +654,8 @@ h3 {
     display: flex;
     max-width: 1200px;
     margin-inline: auto;
-    padding: 2%;
+    padding: 0.5rem;
+    margin: auto;
  }
 
  #rojo{
@@ -662,8 +663,8 @@ h3 {
  }
 
  .div-footer-1{
-    color: var(--clr-primary-400);
-    
+    color: var(--clr-primary-400);  
+    margin-left: 0.5rem; 
  }
 
  .div-footer-2{
@@ -674,8 +675,8 @@ h3 {
 
  .div-footer-3{
   color: lightgrey;
-  margin-right: auto;
-  
+  text-align: right;
+  margin-right: 0.5rem;
 }
 
  .icon{
@@ -684,7 +685,5 @@ h3 {
 
  .subrayado{
   margin-bottom: 0.5em;
-  border-top: 2px solid var(--clr-primary-400);
-  
-  
+  border-top: 2px solid var(--clr-primary-400); 
 }
