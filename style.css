@@ -527,7 +527,11 @@ h3 {
   padding: 1rem;
   border-radius: 3%;
   border: 2px solid var(--clr-primary-400);
-  
+  transition: all .3s ease-in;
+}
+
+.entrada-comida:hover {
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
 .entrada-comida img {
