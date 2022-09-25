@@ -736,7 +736,7 @@ h3 {
 }
 
 .icon:hover {
-  background-color: #ffc400;
+  color: #ffc400;
   transform: translate(10px);
 }
 
