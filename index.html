@@ -389,13 +389,12 @@
                 <h2>Formularios</h2>
         <div class="row justify-content-center">
 
-            <div class="col-md-8 borde pb-3">
+            <div class="col-md-6 col-sm-12 pb-3">
 
-                <h3>Apilado</h3>
 
                 <!-- Por defecto, trabaja a los campos y los labels en bloque por lo que se ubicarán todos los elementos apilados. Cada campo con su label de incluye dentro de un div (o similar) al que le aplicamos la clase mb-3 para separarlos y luego la clase form-control al campo de formulario y from-label al label. Todos los controles comunes se tratan de esta manera. -->
 
-                <form>
+                <form class="contact-form">
                     <!-- Par label input sencillo, sin ningún aspecto de accesibilidad. -->
                     <div class="mb-3">
                         <label for="nombre" class="form-label">Nombre</label>
@@ -436,15 +435,18 @@
                     
                     Tampoco hay un tratamiento especial si se utiliza un solo control (generalmente esto puede suceder solo con el checkbox) como si se presenta un grupo de opciones (en este caso funcionan en grupo simplemente por tener el mismo valor en el atributo name). -->
 
-                    <div class="form-check">
+                    <div class="form-check mb-3">
                         <input class="form-check-input" type="checkbox" id="acepto">
                         <label class="form-check-label" for="acepto">Acepto lo términos y condiciones</label>
                     </div>
-
-                    <input type="reset" value="limpiar" class="btn btn-danger">
-                    <input type="submit" value="enviar" class="btn btn-success">
+                    <button type="submit" value="enviar" class="btn-form">ENVIAR</button>
                 </form>
 
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="map-area">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.602899100828!2d2.178972373085594!3d41.40272372921529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49816718e30e5%3A0x44b0fb3d4f47660a!2sBarcelona%2C%20Spain!5e0!3m2!1sen!2sar!4v1664130003843!5m2!1sen!2sar" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </div>
             </div>
