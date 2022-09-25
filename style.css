@@ -730,11 +730,31 @@ h3 {
   margin-right: 0.5rem;
 }
 
- .icon{
+.icon{
     color: lightgrey;
+    transition: all .3s ease-in;
+}
+
+.icon:hover {
+  background-color: #ffc400;
+  transform: translate(10px);
 }
 
  .subrayado{
   margin-bottom: 0.5em;
   border-top: 2px solid var(--clr-primary-400); 
+}
+
+
+@media (max-width:500px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.div-footer-3 {
+  text-align: left;
+  margin-top: 1rem;
+}
+
 }
