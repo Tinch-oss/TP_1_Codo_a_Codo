@@ -194,13 +194,8 @@ background-color: var(--clr-neutral-900);
   color: var(--clr-accent-300);
 }
 
-.btn--header {
-  margin-top: 1.5em;
-  text-align: center;
-  
-}
 
-button {
+.btn--header {
  appearance: none;
  background-color: transparent;
  border: 0.125em solid #f3f3f3;
@@ -224,13 +219,15 @@ button {
  -webkit-user-select: none;
  touch-action: manipulation;
  will-change: transform;
+   margin-top: 1.5em;
+  text-align: center;
 }
 
-button:disabled {
+.btn--header:disabled {
  pointer-events: none;
 }
 
-button:hover {
+.btn--header:hover {
  color: #fff;
  background-color: var(--clr-accent-400);
  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
@@ -238,9 +235,15 @@ button:hover {
  border: 0.125em solid var(--clr-accent-400);
 }
 
-button:active {
+.btn--header:active {
  box-shadow: none;
  transform: translateY(0);
+}
+
+.btn--header a {
+  font-style: inherit;
+  color: inherit;
+  text-decoration: inherit;
 }
 
 /*----------MG Iconos Guía Begins------------  */
@@ -449,9 +452,10 @@ button:active {
 }
 
 .atr-img{
-  width: 25rem;
-  height: 25rem;
-  display: flex;
+  border-radius: 3%;
+  margin-top: 1em;
+  margin-bottom: 0.5;
+  aspect-ratio: 16 / 9;
 }
 
 .flex-lugares{
@@ -527,7 +531,11 @@ h3 {
   padding: 1rem;
   border-radius: 3%;
   border: 2px solid var(--clr-primary-400);
-  
+  transition: all .3s ease-in;
+}
+
+.entrada-comida:hover {
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
 .entrada-comida img {
@@ -646,7 +654,8 @@ form {
     display: flex;
     max-width: 1200px;
     margin-inline: auto;
-    padding: 2%;
+    padding: 0.5rem;
+    margin: auto;
  }
 
  #rojo{
@@ -654,8 +663,8 @@ form {
  }
 
  .div-footer-1{
-    color: var(--clr-primary-400);
-    
+    color: var(--clr-primary-400);  
+    margin-left: 0.5rem; 
  }
 
  .div-footer-2{
@@ -666,17 +675,39 @@ form {
 
  .div-footer-3{
   color: lightgrey;
-  margin-right: auto;
-  
+  text-align: right;
+  margin-right: 0.5rem;
 }
 
- .icon{
+.icon{
     color: lightgrey;
+    transition: all .3s ease-in;
+}
+
+.icon:hover {
+  color: #ffc400;
+  transform: translate(10px);
 }
 
  .subrayado{
   margin-bottom: 0.5em;
-  border-top: 2px solid var(--clr-primary-400);
-  
-  
+  border-top: 2px solid var(--clr-primary-400); 
+}
+
+
+@media (max-width:500px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.div-footer-3 {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.div-footer-1 {
+  margin-top: 1rem;
+}
+
 }
