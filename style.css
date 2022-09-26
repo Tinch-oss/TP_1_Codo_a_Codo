@@ -613,7 +613,7 @@ h3 {
 }
 
  /* sidebar de seccion CONTACTO*/
-.con-sidebar {
+/* .con-sidebar {
   display: flex;
   justify-content: space-between;
 }
@@ -622,7 +622,7 @@ aside {
 }
 form {
   flex-basis: calc(60% - 2rem);
-}
+} */
 }
 
 
