@@ -28,7 +28,7 @@
                             ¡TÚ PRÓXIMO
                             <span class="resaltar--medio">DESTINO!</span>
                         </h2>
-                        <button class="btn--header"><a href="#contact">CONTÁCTANOS</a></button>
+                        <button class="btn--header">CONTÁCTANOS</button>
                     </div>
                 </div>
             </div>
@@ -386,25 +386,38 @@
          <!-- Fin  GIME futbol-->
         <section id="contact">
             <div class="container">
-                <h2 class="text-center mb-4">Contactanos</h2>
-                <hr class="separador">
-                <p class="desciption">
-                   Nos enfocamos en ofrecer un servicio personalizado de calidad y confiabilidad, a través de la buena atención de nuestro personal debidamente capacitado, diseñando cada propuesta a precios accesibles, logrando superar las expectativas de nuestros clientes. 
-                </p>
-                <hr class="separador2 mb-5">
+                <h2>Formularios</h2>
         <div class="row justify-content-center">
 
             <div class="col-md-6 col-sm-12 pb-3">
+
+
+                <!-- Por defecto, trabaja a los campos y los labels en bloque por lo que se ubicarán todos los elementos apilados. Cada campo con su label de incluye dentro de un div (o similar) al que le aplicamos la clase mb-3 para separarlos y luego la clase form-control al campo de formulario y from-label al label. Todos los controles comunes se tratan de esta manera. -->
+
                 <form class="contact-form">
+                    <!-- Par label input sencillo, sin ningún aspecto de accesibilidad. -->
                     <div class="mb-3">
                         <label for="nombre" class="form-label">Nombre</label>
                         <input type="text" class="form-control" id="nombre" placeholder="Tu Nombre">
                     </div>
 
+                    <!-- Si el input es de tipo abierto y contiene un placeholder no es necesario agregar ningún atributo de accesibilidad ya que el valor del atributo es la explicación del ingreso. -->
+
                     <div class="mb-3">
                         <label for="apellido" class="form-label">Apellido</label>
                         <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido acá">
-                    </div>        
+                    </div>
+
+                    <!-- El atributo aria-describedby recibe como valor el id de otra etiqueta que se asume como descripción de ingreso para su accesibilidad. Esa etiqueta puede estar oculta (solo para lectores de pantalla para no videntes) o visible (para cualquier tipo de usuario).
+                    
+                    La etiqueta con el id que se toma como descripción de ingreso lleva la clase form-text. -->
+
+                    <!-- También podemos agregar el atributo aria-label con la descripción del ingreso para su accesibilidad ya que es un control que no tiene texto.
+                    
+                    Cualquiera de estas maneras tiene en cuenta la accesibilidad del control: placeholder, aria-describedby o aria-label. -->
+                    <!-- Los campos pueden agrandarse o achicarse (similar a los botones) con los sufijos lg y sm en la clase form-control. -->
+
+        
 
                     <div class="mb-3">
                         <label for="mail" class="form-label">Email</label>
@@ -416,12 +429,17 @@
                         <textarea id="comentario" class="form-control" cols="30" rows="5"></textarea>
                     </div>
 
+                    <!-- Campos con tratamiento especial. Reciben alguna clase expecial extra o diferente. -->
 
-                    <div class="form-check">
+                    <!-- Los checkbox y radios tiene una clase especial tanto para el div que contiene el par input label como para cada una de estas etiquetas y son las mismas tanto para el radio como para el checkbox. 
+                    
+                    Tampoco hay un tratamiento especial si se utiliza un solo control (generalmente esto puede suceder solo con el checkbox) como si se presenta un grupo de opciones (en este caso funcionan en grupo simplemente por tener el mismo valor en el atributo name). -->
+
+                    <div class="form-check mb-3">
                         <input class="form-check-input" type="checkbox" id="acepto">
                         <label class="form-check-label" for="acepto">Acepto lo términos y condiciones</label>
                     </div>
-                    <button type="submit" value="enviar" class="btn-form btn--header">ENVIAR</button>
+                    <button type="submit" value="enviar" class="btn-form">ENVIAR</button>
                 </form>
 
             </div>
