@@ -243,7 +243,6 @@ background-color: var(--clr-neutral-900);
  transform: translateY(0);
 }
 
-<<<<<<< HEAD
 .btn--header a {
   font-style: inherit;
   color: inherit;
@@ -267,8 +266,6 @@ background-color: var(--clr-neutral-900);
 }
 
 
-=======
->>>>>>> parent of 2c4e9e6 (se arreglaron los estilos de contacto, y se arreglo el botón del header.)
 /*----------MG Iconos Guía Begins------------  */
 
 .contenedor--cards {
@@ -667,9 +664,8 @@ form {
 }
 
  /* Gime Fin */
-<<<<<<< HEAD
-=======
- /* Contacto MG Inicio */
+
+/* Contacto inicio MG */
 
 .contact-form {
   box-shadow: rgba(0, 0, 0, .4) 0 5px 15px;
@@ -693,28 +689,11 @@ form {
   width: 100%;
   height: 100%;
   border: none;
->>>>>>> parent of 2c4e9e6 (se arreglaron los estilos de contacto, y se arreglo el botón del header.)
-
 }
 
-<<<<<<< HEAD
+/* Contacto fin MG */
+
  .footer{
-=======
-@media screen and (max-widht: 991px) {
-  .contact-form {
-    margin-bottom: 1.5rem;
-  }
-  .map-area {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-
-
- /* Contacto MG fin */
-.footer{
->>>>>>> parent of 2c4e9e6 (se arreglaron los estilos de contacto, y se arreglo el botón del header.)
   display: flex;
   background-color: hsl(220, 100%, 10%);
 }
@@ -753,7 +732,7 @@ form {
 }
 
 .icon:hover {
-  background-color: #ffc400;
+  color: #ffc400;
   transform: translate(10px);
 }
 
