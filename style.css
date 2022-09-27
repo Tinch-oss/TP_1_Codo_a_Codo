@@ -705,7 +705,7 @@ form {
 }
 
 .icon:hover {
-  color: #ffc400;
+  background-color: #ffc400;
   transform: translate(10px);
 }
 
