@@ -710,7 +710,7 @@ form {
     margin: auto;
  }
 
- #rojo{
+ .rojo{
     color: var(--clr-accent-400);
  }
 
