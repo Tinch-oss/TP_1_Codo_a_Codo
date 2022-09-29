@@ -286,8 +286,8 @@ background-color: var(--clr-neutral-900);
 }
 
 .card-iconito {
-  width: 150px;
-  height: 150px;
+  width: 9.375rem;
+  height: 9.375rem;
   transition: all .5s ease-in-out;
   border-radius: 50%;
 
