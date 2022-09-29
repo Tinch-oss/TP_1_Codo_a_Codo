@@ -386,8 +386,9 @@ background-color: var(--clr-neutral-900);
 
 .card {
   position: relative;
-  width: 300px;
-  height: 350px;
+  width: 18.75rem;
+  height: fit-content;
+  aspect-ratio: 3 / 4;
 }
 
 .card .face {
@@ -417,16 +418,17 @@ background-color: var(--clr-neutral-900);
   bottom: 0;
   font-size: var(--fs-700);
   width: 100%;
-  line-height: 45px;
+  line-height: 2.8125rem;
   color: #fff;
   background: rgba(0, 0, 0, .5);
   text-align: center;
+  margin-bottom: auto;
 }
 
 .card .back {
   transform: perspective(600px) rotateY(180deg);
   background: rgb(3, 35, 54);
-  padding: 15px;
+  padding: 0.9375rem;
   color: #f3f3f3;
   display: flex;
   flex-direction: column;
