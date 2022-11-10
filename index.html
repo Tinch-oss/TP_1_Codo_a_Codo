@@ -24,19 +24,40 @@
         ></script>
     </head>
     <body>
+          <!-- GIME: API REST Javascript -->
+        <script type="text/javascript">
+            let clima;
+            fetch('https://api.open-meteo.com/v1/forecast?latitude=41.3879&longitude=2.16992&hourly=apparent_temperature,rain,cloudcover,visibility&current_weather=true')
+                          .then(response => response.json())
+                          .then(json => {
+                            clima = json;
+                           // document.getElementById("city").innerHTML = clima.current_weather.time;
+                            document.getElementById("temperature").innerHTML = 'CLIMA:'+clima.current_weather.temperature +'ºC';
+                        });
+        </script>
+          <!-- GIME: Fin API REST Javascript -->
+
         <header class="header">
-            <div class="contenedor-header">
+            <div class="contenedor-header">             
                 <div class="sub-contenedor--header">
                     <div class="center-flex-header">
                         <h1 class="header--titulo">Bienvenidos a Barcelona</h1>
                         <h2 class="header-sub-titulo">
                             ¡TÚ PRÓXIMO
                             <span class="resaltar--medio">DESTINO!</span>
-                        </h2>
+                        </h2> 
+                        
+                                                    
                         <a href="#contact" class="btn--header">CONTÁCTANOS</a>
                     </div>
+
+                <!-- Llamado a temperatura desde API REST Javascript -->
+                <h3 id="temperature"></h3>
+                
                 </div>
+                
             </div>
+            
         </header>
 
         <section class="menu-con-iconos">
